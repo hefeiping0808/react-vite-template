@@ -8,10 +8,7 @@ const PageAbout: React.FC = () => {
 	}, []);
 	
 	return <div className={'w-screen h-screen flex flex-col gap-y-4 justify-center items-center'}>
-		<div className={' text-red-500'}>
-			PageAbout
-		</div>
-		
+		PageAbout
 		<div className={'flex gap-x-4'}>
 			<button className={'border-[1px] px-1 rounded-xl'} onClick={() => setCount(count-1)}>-</button>
 			{ count }
